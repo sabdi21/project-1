@@ -1,0 +1,17 @@
+html, body {
+    background-color: aqua;
+    text-align: center;
+}
+
+.container {
+    display: block;
+    height: 230px;
+    width: 50px;
+    padding: 0px 30px;
+    border: 2px solid black;
+}
+#input {
+    padding-top: 50px;
+    border: 2px solid red;
+    width: 500px;
+}
