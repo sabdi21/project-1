@@ -28,7 +28,7 @@ var user = {};
 
 
 //----------------DOM References-----------------//
-document.getElementById('sunny').play();
+// document.getElementById('sunny').play();
 var wordBoxReference = document.getElementById('word-box');
 var input = document.getElementById('input');
 var log = document.getElementById('user-text');
