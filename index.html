@@ -2,52 +2,58 @@
 <html id="normal">
    
 <head>
-    <link
-        href="https://fonts.googleapis.com/css?family=Cuprum|Dokdo|Inconsolata|Permanent+Marker|Press+Start+2P|Prompt|Special+Elite"
-        rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Saira+Stencil+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <title>Typing Game</title>
+    <title>Unit 1 Project</title>
 </head>
 
-<body>
-    <div class="welcome" id="welcome">Typing Game</div>
-
-    <div class="word-box-container">
-        <div id="word-box"></div>
+<body class="body-background">
+    <div id="background-design">
+        <div id='img1'><img src="css/img/cloudlayer1.png"></div>
+        <div id='img2'><img src="css/img/cloudlayer2.png"></div>
     </div>
-    <div id="input-box">     
-            <p id="user-text"></p>
-    </div>
-    <div id="timer-container">
-        <h1>
-            <span id="timer"> <span>
-        </h1>
-    </div>
-    <div id="score-container">
-        <h1>
-            <span id="user-score"> <span>
-        </h1>
-    </div>
-    <div class="button">
-        <button id="button">START GAME
-
-        </button>
-    </div>
-
-
-
-
-        </div>
-    </div>
-    <footer class="footer">
-            <div class="footer-container">
-                <a class="link" href="">Meet the Developer</a>
+        <main class="game-board">
+            <div class="title" id="title">Typing Game</div>     
+            <div class="word-box-container"></div>
+            <div id="word-box"></div>
+            <div id="input-box">
+                <input id="input">       
+                <p id="user-text"></p>
             </div>
-           
+            <div id="timer-container">
+                <h1><span id="timer"> <span></h1>
+            </div>
+            <div id="score-container">
+                <h1>
+                <span id="user-score"> <span>
+                </h1>
+            </div>
+            <div id="message">Type your name below! <br>Click the start button to begin your typing race!
+                </div>
+                <br>
+            <form id="name-input">
+                <input type="text" name="userName"id="user-name"  value="">
+            </form>
+            <div id="level-message"></div> 
+            <div class="button">
+                <button id="button">START GAME</button>
+            </div>   
+                  
+        </main> 
+        <footer>
+            <div id="high-scores">
+                <h1>HIGH SCORES</h1>
+                <ol id="score-list"></ol>
+            </div>
+            <div class="about-container">
+                <a href="https://shukri-portfolio.herokuapp.com/" class="about-me">Meet the Developer</a>
+            </div>
         </footer>
-    <script src="/js/app.js"></script>
-    
-</body>
 
+        <!-- Add audio below -->
+        <audio id="sunny" src="/sounds/sunny-day.wav" loop></audio>
+        <audio id="typing" src="/sounds/electric-typewriter.wav" loop></audio>
+        <audio id="thunder" src="/sounds/thunder-sound.wav" loop></audio>
+        <script src="/js/app.js"></script>
+    </body>
 </html>

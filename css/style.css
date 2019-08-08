@@ -1,17 +1,140 @@
 html, body {
-    background-color: aqua;
+    /* background-color: rgb(192, 211, 211); */
+ background-color: aqua;
+
+}
+
+.game-board {
+    border: 1px solid gold;
+    text-align: center;
+    padding: 12px 10px;
+    margin: 40px;
+    position: relative;
+    /* flex-direction: column; */
+}
+#high-scores {
+    font-family: 'Permanent Marker';
+    font-size: 10px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+#title {
+    font-family: 'Permanent Marker';
+    font-size: 70px;
+
+}
+
+#level-message {
+    font-family: 'Permanent Marker';
+    font-size: 50px;
+}
+#message {
+    font-family: 'Permanent Marker';
+    font-size: 30px;
+    top: 20px;
+}
+.about-me{
+    font-size: 20px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+#input {
+    padding-top: 20px;
+    border: 2px solid yellow;
+    width: 500px;
+    font-size: 50px;
     text-align: center;
 }
 
-.container {
-    display: block;
-    height: 230px;
-    width: 50px;
-    padding: 0px 30px;
-    border: 2px solid black;
+#word-box {
+    padding: 30px;
+    font-size: 40px;
+    color: red;
+  
 }
-#input {
-    padding-top: 50px;
-    border: 2px solid red;
-    width: 500px;
+
+/* change text color if they're correct */
+.text-color {
+    color: green;
 }
+#user-text {
+    font-size: 20px;
+    visibility: hidden;
+}
+
+#timer {
+    /* border: 1px solid blue; */
+    padding: 15px;
+    color: black
+}
+
+#high-scores {
+    border: 1px solid green;
+
+}
+
+#button {
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+#hard {
+    background-image: url('https://tenor.com/view/dust-dusty-volcano-gif-5219400');
+}
+
+
+
+#img1{
+    /* background-repeat: repeat; */
+    position: fixed;
+    /* display:; */
+    animation-delay: 0s;
+    z-index: 0;
+    height: 100vh;
+    /* overflow: hidden; */
+    animation-fill-mode: initial;
+    animation: cloudmovement 10s linear infinite;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes cloudmovement{
+    from {
+      left: 90vw;
+      top: 0px;
+    }
+    to { 
+      left: -1700px;
+      top: 0;
+    }
+  }
+  #img2{
+    /* background-repeat: repeat; */
+    position: fixed;
+    /* display:; */
+    animation-delay: 0s;
+    z-index: 0;
+    height: 100vh;
+    /* overflow: hidden; */
+    animation-fill-mode: initial;
+    animation: cloudmovement 30s linear infinite;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes cloudmovement{
+    from {
+      left: 90vw;
+      top: 0px;
+    }
+    to { 
+      left: -1770px;
+      top: 0;
+    }
+  }
