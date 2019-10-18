@@ -1,4 +1,4 @@
-# project-1
+# Typing Game
 Developer: Shukri Abdi
 Game Instructions:
 The game is pretty straight forward. Input you're name than click the start button to begin the typing game. You have 60 seconds to type-out as many words as possible. Each word you successfully type will earn you 1 point. The game has four levels. Easy, medium, hard, and instanity. You'll phase into each level based on your points. 
